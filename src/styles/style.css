@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+   
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+}
+
+.note-app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.title-label{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.note-input{
+    border: 1px solid black;
+    width: 600px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form{
+    width:100% !important;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.text-length{
+    text-align: end;
+    font-size: 12px;
+}
+
+.button-add-note{
+    padding: 5px;
+    background-color: #00B4D8;
+    border: none;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+.card-item{
+    border: 1px solid black;
+    width: 20%;
+    padding: 10px;
+    margin: 20px 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.note-list-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-form{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 10px;
+    align-items: center
+}
+
+.search-label{
+    padding-right: 5px;
+}
+
+.search-input{
+    height: 30px;
+    width: 400px;
+    padding: 5px;
+}
+
+.warning-text{
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.not-found{
+    margin: 20px 0;
+    margin: auto;
+}
+
+.note-title{
+    margin: 10px 0;
+    border-bottom: 3px solid #00B4D8;
+    font-size: 24px;
+    text-align: center;
+}
+
+.note-date, .note-body{
+    margin: 10px 0;
+}
+
+.button-action-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-action{
+    margin: 5px;
+    width: 90px;
+    padding: 3px;
+}
+
+.archive-button{
+    background-color: #17B978;
+    color: white;
+    border: none;
+}
+
+.not-archive-button{
+    background-color: #E8630A;
+    color: white;
+    border: none;
+}
+
+
+.delete-button{
+    background-color: #F32424;
+    color: white;
+    border: none;
+}
